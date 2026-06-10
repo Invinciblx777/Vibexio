@@ -8,6 +8,8 @@ interface ProductCardProps {
   href: string;
   ctaText: string;
   index?: number;
+  image?: string;
+  imageAlt?: string;
 }
 
 export function ProductCard({
@@ -17,10 +19,22 @@ export function ProductCard({
   href,
   ctaText,
   index = 0,
+  image,
+  imageAlt,
 }: ProductCardProps) {
   return (
     <AnimatedSection delay={index * 0.1}>
       <div className="group relative overflow-hidden rounded-xl bg-bg-secondary border border-border card-hover h-full">
+        {image && (
+          <div className="relative overflow-hidden bg-bg-tertiary">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={image}
+              alt={imageAlt ?? title}
+              className="w-full h-56 lg:h-64 object-cover transition-transform duration-700 group-hover:scale-[1.03]"
+            />
+          </div>
+        )}
         <div className="relative z-10 p-8 lg:p-10 flex flex-col h-full">
           <span className="text-xs font-medium tracking-[0.15em] uppercase text-text-muted mb-6">
             {badge}

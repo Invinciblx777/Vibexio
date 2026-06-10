@@ -118,6 +118,86 @@ export default function InsidePage() {
         </div>
       </section>
 
+      {/* Minds Behind Vibexio */}
+      <section id="team" className="py-24 lg:py-32 bg-bg-dark">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <SectionHeader
+            badge="Leadership"
+            title="The Minds Behind Vibexio"
+            description="The people shaping Vibexio's vision, products, and culture."
+            dark
+          />
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-16">
+            <AnimatedSection>
+              <div className="p-8 lg:p-10 rounded-2xl bg-bg-dark-secondary border border-[#2a2a29] h-full">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/images/inside/profile1.webp"
+                  alt="Vignesh Kothandaraman"
+                  className="w-40 h-36 object-cover rounded-xl mb-6"
+                />
+                <div className="flex items-center gap-3 mb-1">
+                  <h3 className="font-[family-name:var(--font-serif)] italic text-2xl text-text-inverse">
+                    Vignesh Kothandaraman
+                  </h3>
+                  <a
+                    href="https://www.linkedin.com/in/vignesh-kothandaraman-a93605234"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Vignesh Kothandaraman on LinkedIn"
+                    className="text-[#8a8a86] hover:text-text-inverse transition-colors duration-300"
+                  >
+                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                    </svg>
+                  </a>
+                </div>
+                <p className="text-xs font-medium tracking-[0.15em] uppercase text-[#8a8a86] mb-6">
+                  Managing Partner
+                </p>
+                <p className="text-[#b8b4ac] text-sm lg:text-base leading-relaxed">
+                  Focuses on understanding real industry challenges and translating them into practical AI products. He drives product ideation through strong research and R&amp;D to ensure every solution is relevant and future ready. His leadership shapes Vibexio&apos;s vision with clarity, innovation, and long term impact.
+                </p>
+              </div>
+            </AnimatedSection>
+
+            <AnimatedSection delay={0.1}>
+              <div className="p-8 lg:p-10 rounded-2xl bg-bg-dark-secondary border border-[#2a2a29] h-full">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/images/inside/profile2.webp"
+                  alt="Santhosh R"
+                  className="w-40 h-36 object-cover rounded-xl mb-6"
+                />
+                <div className="flex items-center gap-3 mb-1">
+                  <h3 className="font-[family-name:var(--font-serif)] italic text-2xl text-text-inverse">
+                    Santhosh R
+                  </h3>
+                  <a
+                    href="https://www.linkedin.com/in/santhosh-r-53b1b8226/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Santhosh R on LinkedIn"
+                    className="text-[#8a8a86] hover:text-text-inverse transition-colors duration-300"
+                  >
+                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                    </svg>
+                  </a>
+                </div>
+                <p className="text-xs font-medium tracking-[0.15em] uppercase text-[#8a8a86] mb-6">
+                  Co-Founder
+                </p>
+                <p className="text-[#b8b4ac] text-sm lg:text-base leading-relaxed">
+                  Serving as Co-Founder and Director at Vibexio, leading end-to-end product development and shaping the organization&apos;s technology vision. Plays a key role in managing the development team and driving the execution of multiple products, ensuring high standards of quality, performance, and innovation across all deliverables.
+                </p>
+              </div>
+            </AnimatedSection>
+          </div>
+        </div>
+      </section>
+
       <CTASection
         title="Want to Work With Us?"
         description="Whether you need a custom AI solution, enterprise software, or just want to explore what's possible — we're here to help."

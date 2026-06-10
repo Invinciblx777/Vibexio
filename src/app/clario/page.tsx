@@ -53,6 +53,16 @@ export default function ClarioPage() {
             </Button>
           </AnimatedSection>
         </div>
+
+        {/* Product visual */}
+        <AnimatedSection delay={0.25} className="relative z-10 max-w-5xl mx-auto px-6 lg:px-8 mt-16">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/images/clario/LandingClario.webp"
+            alt="Clario AI platform on a laptop"
+            className="w-full h-auto"
+          />
+        </AnimatedSection>
       </section>
 
       {/* Features */}

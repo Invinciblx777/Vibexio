@@ -55,6 +55,8 @@ export default function EcosystemPage() {
               href="/clario"
               ctaText="Explore Clario"
               index={0}
+              image="/images/ecosystem/VibexioClario.webp"
+              imageAlt="Clario AI document intelligence platform"
             />
             <ProductCard
               badge="All-in-One"
@@ -63,7 +65,59 @@ export default function EcosystemPage() {
               href="/kubyn"
               ctaText="Explore Kubyn"
               index={1}
+              image="/images/ecosystem/Kubyn.webp"
+              imageAlt="Kubyn unified business platform"
             />
+          </div>
+
+          {/* Coming Soon */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
+            <AnimatedSection delay={0.15}>
+              <div className="relative overflow-hidden rounded-xl bg-bg-secondary border border-border h-full">
+                <div className="relative overflow-hidden bg-bg-tertiary">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/images/ecosystem/EdutechSoon.webp"
+                    alt="Edutech — coming soon"
+                    className="w-full h-56 lg:h-64 object-cover opacity-90"
+                  />
+                </div>
+                <div className="p-8 lg:p-10">
+                  <span className="text-xs font-medium tracking-[0.15em] uppercase text-text-muted mb-6 block">
+                    Coming Soon
+                  </span>
+                  <h3 className="font-[family-name:var(--font-serif)] italic text-2xl lg:text-3xl text-text-primary mb-4 leading-tight">
+                    Edutech
+                  </h3>
+                  <p className="text-text-secondary text-sm lg:text-base leading-relaxed">
+                    Adaptive AI learning platform that personalizes education and improves learning outcomes.
+                  </p>
+                </div>
+              </div>
+            </AnimatedSection>
+            <AnimatedSection delay={0.2}>
+              <div className="relative overflow-hidden rounded-xl bg-bg-secondary border border-border h-full">
+                <div className="relative overflow-hidden bg-bg-tertiary">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/images/ecosystem/HealthcareSoon.webp"
+                    alt="Healthcare — coming soon"
+                    className="w-full h-56 lg:h-64 object-cover opacity-90"
+                  />
+                </div>
+                <div className="p-8 lg:p-10">
+                  <span className="text-xs font-medium tracking-[0.15em] uppercase text-text-muted mb-6 block">
+                    Coming Soon
+                  </span>
+                  <h3 className="font-[family-name:var(--font-serif)] italic text-2xl lg:text-3xl text-text-primary mb-4 leading-tight">
+                    Healthcare
+                  </h3>
+                  <p className="text-text-secondary text-sm lg:text-base leading-relaxed">
+                    AI-assisted healthcare intelligence to streamline diagnostics and improve patient outcomes.
+                  </p>
+                </div>
+              </div>
+            </AnimatedSection>
           </div>
         </div>
       </section>

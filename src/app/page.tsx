@@ -93,6 +93,18 @@ function HeroSection() {
             </div>
           </AnimatedSection>
         </div>
+
+        {/* Hero visual — robotic hand with Vibexio product ecosystem */}
+        <AnimatedSection delay={0.3} className="mt-16 lg:mt-24">
+          <div className="relative overflow-hidden rounded-2xl border border-border bg-bg-tertiary">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/images/home/main.webp"
+              alt="Vibexio — intelligent AI products in action"
+              className="w-full h-[320px] sm:h-[420px] lg:h-[560px] object-cover"
+            />
+          </div>
+        </AnimatedSection>
       </div>
     </section>
   );
